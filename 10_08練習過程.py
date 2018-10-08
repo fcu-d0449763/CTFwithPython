@@ -6,5 +6,20 @@
 
 import codecs
 
+##  hexadecimal to ASCII
 codecs.decode("41", "hex")
 # b'A'
+bytes.fromhex('41').decode('utf-8')
+# 'A'
+print ("\x41")
+# A
+bytearray.fromhex("41").decode()
+# 'A'
+chr(int('41',16))
+# 'A'
+
+##  int(base10) to binary(base2)
+bin(27)
+# '0b11011'
+bin(27)[2:]
+# '11011'
