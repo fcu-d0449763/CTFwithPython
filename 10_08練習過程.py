@@ -27,3 +27,8 @@ bin(27)[2:]
 # 0x3D (base 16) to  decimal (base 10)
 int('3D',16)
 # 61
+
+# base to ascii
+import base64
+base64.b64decode('dGg0dF93NHNfczFtcEwz')
+# b'th4t_w4s_s1mpL3'
